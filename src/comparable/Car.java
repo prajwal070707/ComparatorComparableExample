@@ -36,11 +36,10 @@ public class Car  implements Comparable<Car> {
 	}
 	@Override
 	public int compareTo(Car o) {
-		//thi sclass: use this.propertyname
-		//class being compared with: use o.getProperty
+		
 		
 		if(this.getName().compareTo(o.getName())>0)
-			return 1;//name of o1 lexicographically greater, comes first in dictionary
+			return 1;
 		return -1;
 	}
 	
